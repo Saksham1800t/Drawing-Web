@@ -7,6 +7,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
     <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css" />
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -22,11 +26,17 @@
                 </div>
                 <div class="tools-wrapper">
                     <h5>Color:</h5>
-                    <input type="color" id="color-input" />
+                    <div class="slider">
+                        <input type="color" id="color-input" />
+                        <i class="fa-solid fa-pen" style="color: #ffffff;"></i>
+                    </div>
                 </div>
                 <div class="tools-wrapper">
                     <h5>Background Color:</h5>
-                    <input type="color" id="color-background" />
+                    <div class="bucket">
+                        <input type="color" id="color-background" />
+                        <i class="fa-solid fa-fill-drip" style="color: #ffffff;"></i>
+                    </div>
                 </div>
             </div>
             <div class="tools-row">
